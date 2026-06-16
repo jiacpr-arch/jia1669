@@ -103,7 +103,7 @@
         "price": "69,000 THB",
         "priceOriginal": "98,988 THB",
         "priceUnit": "one-time payment (ownership)",
-        "highlight": true,
+        "highlight": false,
         "desc": "Own all the equipment immediately, with full service included.",
         "features": [
           "Own the AED + GPS equipment",
@@ -122,7 +122,7 @@
         "price": "15,000 deposit + 2,500 THB/mo",
         "priceOriginal": "",
         "priceUnit": "18 months, then you own it",
-        "highlight": false,
+        "highlight": true,
         "desc": "Pay monthly toward ownership. After 18 months the equipment becomes yours at no extra cost.",
         "features": [
           "Use the full package immediately",

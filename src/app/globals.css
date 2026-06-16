@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-noto-thai), var(--font-inter), ui-sans-serif, system-ui,
+    sans-serif;
+  /* โทนแบรนด์: แดง (ฉุกเฉิน/หัวใจ) + เขียวเข้ม (ปลอดภัย) */
+  --color-brand-50: #fef2f2;
+  --color-brand-100: #fee2e2;
+  --color-brand-500: #ef4444;
+  --color-brand-600: #dc2626;
+  --color-brand-700: #b91c1c;
+  --color-ink-700: #134e4a;
+  --color-ink-800: #115e59;
+  --color-ink-900: #0f3d3a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* เผื่อ anchor scroll ไม่ให้หัวข้อโดน navbar บัง */
+section[id] {
+  scroll-margin-top: 5rem;
+}

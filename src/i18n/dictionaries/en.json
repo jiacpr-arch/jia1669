@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "JIA LUCK SA — Enterprise AED Safety Solutions",
+    "description": "Premium AED units with real-time GPS tracking, compliance cabinet, team training and long warranty. Available to own or rent annually. By JIA LUCK SA (jia1669)."
+  },
+  "brand": {
+    "name": "JIA LUCK SA",
+    "tagline": "Protect every life in your organization with AED"
+  },
+  "nav": {
+    "products": "Products",
+    "packages": "Packages",
+    "features": "Features",
+    "training": "Training",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Your complete AED partner",
+    "title": "Turn critical seconds into a chance to survive",
+    "subtitle": "Complete AED solutions for factories, hotels and enterprises — premium devices with real-time GPS tracking, a compliance cabinet, team training and a long warranty. Choose to own outright or rent annually.",
+    "ctaPrimary": "Get a Quote",
+    "ctaSecondary": "Call for free advice",
+    "stats": [
+      { "value": "24/7", "label": "GPS device monitoring" },
+      { "value": "3–4 min", "label": "Golden window to save a life" },
+      { "value": "All-in-one", "label": "Device + cabinet + training + care" }
+    ]
+  },
+  "valueProps": {
+    "title": "Why your organization needs an AED",
+    "subtitle": "Sudden cardiac arrest can strike anyone, anywhere, anytime. A ready-to-use AED is the line between life and death.",
+    "items": [
+      {
+        "title": "Every second counts",
+        "desc": "Survival chances drop by roughly 7–10% for every minute without help. A ready AED multiplies the odds of survival."
+      },
+      {
+        "title": "Global standards are arriving in Thailand",
+        "desc": "AEDs are already installed in airports, transit stations, schools and malls — and are now being actively introduced into factories and hotels."
+      },
+      {
+        "title": "A benefit that builds confidence",
+        "desc": "More organizations now include AEDs as part of employee welfare, reflecting genuine care and raising their safety profile."
+      }
+    ]
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "AED devices and trainers selected for maximum readiness.",
+    "priceNote": "* Please contact our team for pricing",
+    "items": [
+      {
+        "name": "JIA AED GPS",
+        "category": "AED Device",
+        "desc": "An automated external defibrillator with built-in GPS that tracks device location and readiness in real time — ideal for organizations managing multiple installation sites.",
+        "tag": "Best seller"
+      },
+      {
+        "name": "Jia Zoll",
+        "category": "AED Device",
+        "desc": "A high-quality, easy-to-use AED with voice guidance for every step — suitable for public spaces and enterprises.",
+        "tag": ""
+      },
+      {
+        "name": "AED Trainer Jia Plus",
+        "category": "Trainer",
+        "desc": "An AED training simulator for CPR/AED courses, helping your team master the real workflow without using a live unit.",
+        "tag": ""
+      },
+      {
+        "name": "AED Trainer Jia",
+        "category": "Trainer",
+        "desc": "A standard, budget-friendly AED trainer — ideal for schools and training centers that need many practice units.",
+        "tag": ""
+      }
+    ]
+  },
+  "packages": {
+    "title": "Choose the right package for your organization",
+    "subtitle": "Whether you want to own the device or have us manage the whole system, we have an option to fit your budget and needs.",
+    "popularLabel": "Most popular",
+    "ctaLabel": "Ask about this package",
+    "plans": [
+      {
+        "name": "Safety Premium",
+        "type": "Ownership",
+        "highlight": true,
+        "desc": "Own a complete safety set with a long warranty and ongoing after-sales care.",
+        "features": [
+          "Premium AED device with extended warranty",
+          "Real-time GPS status tracking",
+          "Standard compliance cabinet",
+          "On-site installation service",
+          "Team usage training",
+          "After-sales service per package"
+        ]
+      },
+      {
+        "name": "Smart AED",
+        "type": "Annual Rental",
+        "highlight": false,
+        "desc": "Let us manage the whole system for a predictable, fixed annual fee that's easy to budget.",
+        "features": [
+          "Fully maintained, ready-to-use AED",
+          "GPS location and status tracking",
+          "Maintenance and consumable replacement",
+          "Fixed annual fee, easy budgeting",
+          "Scheduled refresher training",
+          "No large upfront investment"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "title": "Every element of safety, covered",
+    "subtitle": "Every package is designed to be operational from day one.",
+    "items": [
+      { "title": "Real-time GPS tracking", "desc": "Know the location and readiness of every device at all times." },
+      { "title": "Compliance cabinet", "desc": "A standard AED cabinet that's easy to reach in an emergency." },
+      { "title": "Team training", "desc": "AED and CPR training so your staff are ready to respond." },
+      { "title": "Long warranty", "desc": "Peace of mind with warranty coverage and ongoing care." },
+      { "title": "On-site installation", "desc": "Our team installs and advises on optimal placement." },
+      { "title": "After-sales care", "desc": "Maintenance and support throughout the device's lifetime." }
+    ]
+  },
+  "training": {
+    "title": "CPR & AED Training Services",
+    "subtitle": "Great equipment needs capable people. We train your team to act with confidence when it matters most.",
+    "points": [
+      "Basic cardiopulmonary resuscitation (CPR) training",
+      "Hands-on AED practice with training simulators",
+      "Content tailored to factories, hotels and enterprises",
+      "Periodic refresher sessions to maintain readiness"
+    ],
+    "cta": "Ask about training"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is an AED and how important is it?",
+        "a": "An AED (automated external defibrillator) helps people in sudden cardiac arrest. Having one ready in your organization significantly increases the chance of survival."
+      },
+      {
+        "q": "Should I buy outright or rent?",
+        "a": "If you want ownership and long-term cost control, choose the Safety Premium (ownership) package. If you'd rather have us manage everything with a predictable annual budget, choose Smart AED (rental)."
+      },
+      {
+        "q": "How does the GPS system work?",
+        "a": "Our devices track location and readiness in real time, making it easy for multi-site organizations to ensure every unit is always ready to use."
+      },
+      {
+        "q": "Do you provide usage training?",
+        "a": "Yes. Every package includes team usage training, and we also offer separate CPR/AED training for interested organizations."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to raise your organization's safety?",
+    "subtitle": "Contact the JIA LUCK SA team for advice and a quote tailored to your organization.",
+    "phoneLabel": "Call us",
+    "phone": "090-979-1212",
+    "facebookLabel": "Facebook",
+    "lineLabel": "LINE",
+    "lineValue": "@jia1669",
+    "addressLabel": "Address",
+    "address": "JIA LUCK SA Co., Ltd. — please add full address",
+    "form": {
+      "name": "Full name",
+      "company": "Organization / Company",
+      "phone": "Phone number",
+      "message": "Message / Requirements",
+      "submit": "Send message",
+      "note": "Or call us directly for immediate advice"
+    }
+  },
+  "footer": {
+    "tagline": "Complete AED solutions for Thai organizations",
+    "rights": "All rights reserved",
+    "madeNote": "New website replacing jia1669.com"
+  },
+  "language": {
+    "switchTo": "ไทย",
+    "label": "Language"
+  }
+}

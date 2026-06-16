@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/i18n/dictionaries";
 
 export default function Training({ dict }: { dict: Dictionary }) {
@@ -26,14 +27,14 @@ export default function Training({ dict }: { dict: Dictionary }) {
             {dict.training.cta}
           </a>
         </div>
-        <div className="rounded-3xl border border-slate-200 bg-gradient-to-br from-brand-50 to-white p-10">
-          {/* TODO: แทนที่ด้วยภาพการอบรมจริง */}
-          <div className="grid aspect-video place-items-center rounded-2xl border-2 border-dashed border-brand-200 text-center">
-            <div>
-              <div className="text-6xl">🎓</div>
-              <p className="mt-3 font-bold text-ink-900">CPR &amp; AED</p>
-            </div>
-          </div>
+        <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-lg">
+          <Image
+            src="/images/training.jpg"
+            alt="Jia Medical Trainer Center — CPR & AED training"
+            width={1477}
+            height={1108}
+            className="h-auto w-full"
+          />
         </div>
       </div>
     </section>

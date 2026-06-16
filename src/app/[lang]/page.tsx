@@ -26,9 +26,9 @@ export default async function Home({
       <Navbar dict={dict} lang={lang} />
       <main>
         <Hero dict={dict} />
-        <ValueProps dict={dict} />
-        <Products dict={dict} />
         <Packages dict={dict} />
+        <Products dict={dict} />
+        <ValueProps dict={dict} />
         <Features dict={dict} />
         <Training dict={dict} />
         <Faq dict={dict} />

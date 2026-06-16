@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import type { Dictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
 
-const sections = ["products", "packages", "features", "training", "faq", "contact"] as const;
+const sections = ["packages", "products", "features", "training", "faq", "contact"] as const;
 
 export default function Navbar({ dict, lang }: { dict: Dictionary; lang: Locale }) {
   const [open, setOpen] = useState(false);

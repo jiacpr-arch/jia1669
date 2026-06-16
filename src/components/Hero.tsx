@@ -37,10 +37,10 @@ export default function Hero({ dict }: { dict: Dictionary }) {
           <dl className="mt-12 grid grid-cols-3 gap-4 border-t border-slate-200 pt-8">
             {dict.hero.stats.map((stat) => (
               <div key={stat.label}>
-                <dt className="text-2xl font-extrabold text-brand-600 sm:text-3xl">
+                <dt className="text-base font-extrabold leading-tight text-brand-600 sm:text-xl">
                   {stat.value}
                 </dt>
-                <dd className="mt-1 text-xs text-slate-500 sm:text-sm">{stat.label}</dd>
+                <dd className="mt-1 text-xs text-slate-500">{stat.label}</dd>
               </div>
             ))}
           </dl>
@@ -49,10 +49,10 @@ export default function Hero({ dict }: { dict: Dictionary }) {
         <div className="relative">
           <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-xl">
             <Image
-              src="/images/cpr-hero.jpg"
-              alt={`${dict.brand.name} — ${dict.brand.tagline}`}
-              width={1254}
-              height={1254}
+              src="/images/hero-aed.jpg"
+              alt={`${dict.brand.name} — AED + GPS`}
+              width={1400}
+              height={933}
               priority
               className="h-auto w-full"
             />

@@ -20,12 +20,12 @@
     "badge": "Free consultation · No cost",
     "title": "Complete AED-GPS, Rent or Buy",
     "subtitle": "Choose the AED safety package that fits your business — buy outright, rent-to-own, or full-service rental, each with a built-in GPS system.",
-    "ctaPrimary": "View packages",
+    "ctaPrimary": "View prices",
     "ctaSecondary": "Call for free advice",
     "stats": [
-      { "value": "3", "label": "Packages for every budget" },
-      { "value": "24/7", "label": "GPS tracking for device + assets" },
-      { "value": "3–5 days", "label": "Delivery + training, ready to use" }
+      { "value": "Rent 1,500.-/mo", "label": "From per month (Safety Care)" },
+      { "value": "Buy 69,000.-", "label": "Was 98,988.- (Safety Premium)" },
+      { "value": "18-mo plan", "label": "Pay to own (Safety Start)" }
     ]
   },
   "valueProps": {

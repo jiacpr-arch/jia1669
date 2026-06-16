@@ -53,24 +53,28 @@
     "items": [
       {
         "name": "JIA AED + GPS",
+        "image": "/images/aed-gps.jpg",
         "category": "AED Device",
         "desc": "An automated external defibrillator with built-in GPS tracking location and readiness in real time — the core of every package.",
         "tag": "System core"
       },
       {
         "name": "Standard Storage Cabinet",
+        "image": "/images/cabinet.jpg",
         "category": "Equipment",
         "desc": "A wall-mounted or free-standing AED cabinet that's easy to reach in an emergency — included in every package.",
         "tag": ""
       },
       {
         "name": "AED Trainer",
+        "image": "/images/trainer.jpg",
         "category": "Trainer",
         "desc": "An AED training simulator for CPR/AED courses, helping your team master the real workflow.",
         "tag": ""
       },
       {
         "name": "Demo / Trial Service",
+        "image": "",
         "category": "Service",
         "desc": "Product demonstration and trial at our office, or scheduled at your site, so you can assess quality and fit before deciding.",
         "tag": ""

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/i18n/dictionaries";
 
 export default function Products({ dict }: { dict: Dictionary }) {
@@ -16,9 +17,18 @@ export default function Products({ dict }: { dict: Dictionary }) {
               key={p.name}
               className="flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
             >
-              {/* TODO: แทนที่ด้วยรูปสินค้าจริงใน /public */}
-              <div className="relative grid aspect-square place-items-center bg-gradient-to-br from-brand-50 to-white text-5xl">
-                ❤️
+              <div className="relative aspect-square bg-gradient-to-br from-brand-50 to-white">
+                {p.image ? (
+                  <Image
+                    src={p.image}
+                    alt={p.name}
+                    fill
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                    className="object-contain p-2"
+                  />
+                ) : (
+                  <span className="grid h-full w-full place-items-center text-5xl">❤️</span>
+                )}
                 {p.tag && (
                   <span className="absolute left-3 top-3 rounded-full bg-brand-600 px-2.5 py-1 text-xs font-semibold text-white">
                     {p.tag}

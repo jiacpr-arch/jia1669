@@ -47,20 +47,15 @@ export default function Hero({ dict }: { dict: Dictionary }) {
         </div>
 
         <div className="relative">
-          {/* TODO: เพิ่มภาพเครื่อง AED จริงใน /public ได้ภายหลัง */}
-          <div className="aspect-[4/3] rounded-3xl border border-slate-200 bg-gradient-to-br from-white to-brand-50 p-8 shadow-xl">
-            <div className="flex h-full flex-col items-center justify-center text-center">
-              <Image
-                src="/images/logo.svg"
-                alt={dict.brand.name}
-                width={420}
-                height={342}
-                priority
-                className="h-auto w-full max-w-sm"
-              />
-              <p className="mt-6 text-lg font-bold text-ink-900">AED + GPS</p>
-              <p className="mt-1 text-sm text-slate-500">{dict.brand.tagline}</p>
-            </div>
+          <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-xl">
+            <Image
+              src="/images/cpr-hero.jpg"
+              alt={`${dict.brand.name} — ${dict.brand.tagline}`}
+              width={1254}
+              height={1254}
+              priority
+              className="h-auto w-full"
+            />
           </div>
         </div>
       </div>

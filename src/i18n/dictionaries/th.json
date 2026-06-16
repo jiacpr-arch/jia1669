@@ -87,6 +87,7 @@
     "plans": [
       {
         "name": "Safety Premium",
+        "image": "/images/safety-premium.jpg",
         "type": "ขายขาด — เป็นเจ้าของทันที",
         "price": "69,000 บาท",
         "priceOriginal": "98,988 บาท",
@@ -105,6 +106,7 @@
       },
       {
         "name": "Safety Start",
+        "image": "/images/safety-start.jpg",
         "type": "เช่าแล้วได้ซื้อ (Rent-to-Own)",
         "price": "มัดจำ 15,000 + 2,500 บาท/เดือน",
         "priceOriginal": "",
@@ -122,6 +124,7 @@
       },
       {
         "name": "Safety Care",
+        "image": "/images/safety-care.jpg",
         "type": "เช่าบริการครบวงจร",
         "price": "มัดจำ 25,000 (คืนได้) + 1,500 บาท/เดือน",
         "priceOriginal": "",

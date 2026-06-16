@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/i18n/dictionaries";
 
 export default function Packages({ dict }: { dict: Dictionary }) {
@@ -20,10 +21,19 @@ export default function Packages({ dict }: { dict: Dictionary }) {
             }`}
           >
             {plan.highlight && (
-              <span className="absolute -top-3 left-8 rounded-full bg-brand-600 px-3 py-1 text-xs font-bold text-white">
+              <span className="absolute -top-3 left-8 z-10 rounded-full bg-brand-600 px-3 py-1 text-xs font-bold text-white">
                 {dict.packages.popularLabel}
               </span>
             )}
+            <div className="mb-5 overflow-hidden rounded-2xl border border-slate-100">
+              <Image
+                src={plan.image}
+                alt={plan.name}
+                width={640}
+                height={640}
+                className="h-auto w-full"
+              />
+            </div>
             <span className="text-sm font-semibold uppercase tracking-wide text-brand-600">
               {plan.type}
             </span>

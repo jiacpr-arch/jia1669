@@ -1,4 +1,7 @@
+"use client";
+
 import { site } from "@/lib/site";
+import { track } from "@/lib/fbq";
 
 // ปุ่มลอยติดต่อด่วน (LINE + โทร) มุมขวาล่าง เห็นตลอดทุกหน้าจอ — เพิ่มอัตราติดต่อ
 export default function FloatingContact() {
@@ -9,6 +12,7 @@ export default function FloatingContact() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LINE"
+        onClick={() => track("Contact", { method: "line" })}
         className="flex h-14 items-center gap-2 rounded-full bg-[#06C755] px-4 text-white shadow-lg shadow-black/20 transition hover:scale-105"
       >
         <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden>
@@ -19,6 +23,7 @@ export default function FloatingContact() {
       <a
         href={site.phoneHref}
         aria-label="โทร"
+        onClick={() => track("Contact", { method: "phone" })}
         className="flex h-14 items-center gap-2 rounded-full bg-brand-600 px-4 text-white shadow-lg shadow-black/20 transition hover:scale-105"
       >
         <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden>

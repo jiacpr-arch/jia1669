@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { site } from "@/lib/site";
+import { track } from "@/lib/fbq";
 
 export default function Contact({ dict }: { dict: Dictionary }) {
   const c = dict.contact;
@@ -11,6 +12,7 @@ export default function Contact({ dict }: { dict: Dictionary }) {
   // ยังไม่มี backend — ส่งผ่าน mailto เป็น fallback (TODO: ผูก API/บริการอีเมลจริง)
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    track("Lead"); // Meta Pixel — conversion เมื่อกรอกฟอร์มติดต่อ
     const subject = encodeURIComponent(`[${dict.brand.name}] ${form.name || "Inquiry"}`);
     const body = encodeURIComponent(
       `${c.form.name}: ${form.name}\n${c.form.company}: ${form.company}\n${c.form.phone}: ${form.phone}\n\n${form.message}`,

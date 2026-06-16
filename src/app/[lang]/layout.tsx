@@ -5,6 +5,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
+import MetaPixel from "@/components/MetaPixel";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default async function LangLayout({
   return (
     <html lang={lang as Locale} className={`${notoSansThai.variable} ${inter.variable}`}>
       <body>
+        <MetaPixel />
         {children}
         <Analytics />
       </body>

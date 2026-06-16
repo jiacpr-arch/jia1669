@@ -10,12 +10,9 @@ export function middleware(request: NextRequest) {
   );
   if (hasLocale) return NextResponse.next();
 
-  // เดา locale จาก Accept-Language (รองรับเฉพาะ th/en)
-  const accept = request.headers.get("accept-language") ?? "";
-  const preferred = accept.toLowerCase().startsWith("en") ? "en" : defaultLocale;
-
+  // เปิดครั้งแรกให้เป็นภาษาไทยเสมอ (ไม่ดู Accept-Language) — ผู้ใช้สลับ EN เองได้
   const url = request.nextUrl.clone();
-  url.pathname = `/${preferred}${pathname === "/" ? "" : pathname}`;
+  url.pathname = `/${defaultLocale}${pathname === "/" ? "" : pathname}`;
   return NextResponse.redirect(url);
 }
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { site } from "@/lib/site";
 
@@ -46,18 +47,19 @@ export default function Hero({ dict }: { dict: Dictionary }) {
         </div>
 
         <div className="relative">
-          {/* TODO: แทนที่ด้วยภาพเครื่อง AED จริงใน /public */}
+          {/* TODO: เพิ่มภาพเครื่อง AED จริงใน /public ได้ภายหลัง */}
           <div className="aspect-[4/3] rounded-3xl border border-slate-200 bg-gradient-to-br from-white to-brand-50 p-8 shadow-xl">
-            <div className="grid h-full place-items-center rounded-2xl border-2 border-dashed border-brand-200 text-center">
-              <div className="px-6">
-                <span className="grid mx-auto h-20 w-20 place-items-center rounded-2xl bg-brand-600 text-4xl text-white">
-                  ❤️
-                </span>
-                <p className="mt-4 text-lg font-bold text-ink-900">AED + GPS</p>
-                <p className="mt-1 text-sm text-slate-500">
-                  {dict.brand.tagline}
-                </p>
-              </div>
+            <div className="flex h-full flex-col items-center justify-center text-center">
+              <Image
+                src="/images/logo.svg"
+                alt={dict.brand.name}
+                width={420}
+                height={342}
+                priority
+                className="h-auto w-full max-w-sm"
+              />
+              <p className="mt-6 text-lg font-bold text-ink-900">AED + GPS</p>
+              <p className="mt-1 text-sm text-slate-500">{dict.brand.tagline}</p>
             </div>
           </div>
         </div>

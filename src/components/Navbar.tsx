@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import type { Dictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
@@ -19,10 +20,15 @@ export default function Navbar({ dict, lang }: { dict: Dictionary; lang: Locale 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href={`/${lang}`} className="flex items-center gap-2 font-bold">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-brand-600 text-white">
-            <HeartIcon className="h-5 w-5" />
-          </span>
+        <Link href={`/${lang}`} className="flex items-center gap-2.5 font-bold">
+          <Image
+            src="/images/logo-mark.svg"
+            alt={dict.brand.name}
+            width={62}
+            height={35}
+            priority
+            className="h-9 w-auto"
+          />
           <span className="text-lg tracking-tight text-ink-900">{dict.brand.name}</span>
         </Link>
 
@@ -93,13 +99,5 @@ export default function Navbar({ dict, lang }: { dict: Dictionary; lang: Locale 
         </div>
       )}
     </header>
-  );
-}
-
-function HeartIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
-      <path d="M12 21s-6.7-4.35-9.33-8.07C.9 10.27 1.4 6.9 4.06 5.6c1.94-.95 4.2-.3 5.4 1.36L12 9.5l2.54-2.54c1.2-1.66 3.46-2.31 5.4-1.36 2.66 1.3 3.16 4.67 1.39 7.33C18.7 16.65 12 21 12 21z" />
-    </svg>
   );
 }

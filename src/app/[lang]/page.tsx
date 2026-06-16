@@ -3,6 +3,7 @@ import { isLocale } from "@/i18n/config";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import PromoBar from "@/components/PromoBar";
 import ValueProps from "@/components/ValueProps";
 import Products from "@/components/Products";
 import Packages from "@/components/Packages";
@@ -11,6 +12,7 @@ import Training from "@/components/Training";
 import Faq from "@/components/Faq";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FloatingContact from "@/components/FloatingContact";
 
 export default async function Home({
   params,
@@ -26,6 +28,7 @@ export default async function Home({
       <Navbar dict={dict} lang={lang} />
       <main>
         <Hero dict={dict} />
+        <PromoBar dict={dict} />
         <Packages dict={dict} />
         <Products dict={dict} />
         <ValueProps dict={dict} />
@@ -35,6 +38,7 @@ export default async function Home({
         <Contact dict={dict} />
       </main>
       <Footer dict={dict} />
+      <FloatingContact />
     </>
   );
 }

@@ -8,16 +8,37 @@ import { track } from "@/lib/fbq";
 export default function Contact({ dict }: { dict: Dictionary }) {
   const c = dict.contact;
   const [form, setForm] = useState({ name: "", company: "", phone: "", message: "" });
+  const [status, setStatus] = useState<"idle" | "sending" | "success">("idle");
 
-  // ยังไม่มี backend — ส่งผ่าน mailto เป็น fallback (TODO: ผูก API/บริการอีเมลจริง)
-  function handleSubmit(e: React.FormEvent) {
+  // ส่ง lead เข้า API (เก็บลง Supabase) — ถ้าพลาด fallback เป็น mailto กัน lead หาย
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    track("Lead"); // Meta Pixel — conversion เมื่อกรอกฟอร์มติดต่อ
-    const subject = encodeURIComponent(`[${dict.brand.name}] ${form.name || "Inquiry"}`);
-    const body = encodeURIComponent(
-      `${c.form.name}: ${form.name}\n${c.form.company}: ${form.company}\n${c.form.phone}: ${form.phone}\n\n${form.message}`,
-    );
-    window.location.href = `mailto:${site.email}?subject=${subject}&body=${body}`;
+    setStatus("sending");
+    const locale =
+      typeof window !== "undefined" && window.location.pathname.startsWith("/en")
+        ? "en"
+        : "th";
+    const page = typeof window !== "undefined" ? window.location.pathname : "";
+    try {
+      const res = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, locale, page }),
+      });
+      if (!res.ok) throw new Error("request failed");
+      track("Lead"); // Meta Pixel — conversion เมื่อส่ง lead สำเร็จ
+      setStatus("success");
+      setForm({ name: "", company: "", phone: "", message: "" });
+    } catch {
+      // fallback: เปิดอีเมลให้ลูกค้าส่งเอง เพื่อไม่ให้ข้อมูลหาย
+      track("Lead");
+      const subject = encodeURIComponent(`[${dict.brand.name}] ${form.name || "Inquiry"}`);
+      const body = encodeURIComponent(
+        `${c.form.name}: ${form.name}\n${c.form.company}: ${form.company}\n${c.form.phone}: ${form.phone}\n\n${form.message}`,
+      );
+      window.location.href = `mailto:${site.email}?subject=${subject}&body=${body}`;
+      setStatus("idle");
+    }
   }
 
   return (
@@ -69,6 +90,20 @@ export default function Contact({ dict }: { dict: Dictionary }) {
           onSubmit={handleSubmit}
           className="rounded-3xl bg-white p-7 text-slate-900 shadow-xl"
         >
+          {status === "success" ? (
+            <div className="flex h-full min-h-[20rem] flex-col items-center justify-center text-center">
+              <div className="grid h-16 w-16 place-items-center rounded-full bg-green-100 text-3xl">
+                ✓
+              </div>
+              <p className="mt-5 text-lg font-bold text-ink-900">{c.form.success}</p>
+              <a
+                href={site.phoneHref}
+                className="mt-6 rounded-full bg-brand-600 px-6 py-3 text-sm font-semibold text-white"
+              >
+                📞 {c.phone}
+              </a>
+            </div>
+          ) : (
           <div className="space-y-4">
             <Field
               label={c.form.name}
@@ -101,12 +136,14 @@ export default function Contact({ dict }: { dict: Dictionary }) {
             </div>
             <button
               type="submit"
-              className="w-full rounded-full bg-brand-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-brand-700"
+              disabled={status === "sending"}
+              className="w-full rounded-full bg-brand-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
             >
-              {c.form.submit}
+              {status === "sending" ? c.form.sending : c.form.submit}
             </button>
             <p className="text-center text-sm text-slate-500">{c.form.note}</p>
           </div>
+          )}
         </form>
       </div>
     </section>

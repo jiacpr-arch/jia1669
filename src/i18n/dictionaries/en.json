@@ -266,6 +266,8 @@
       "phone": "Phone number",
       "message": "Message / Package of interest",
       "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you! We've received your details and will contact you shortly. 🙏",
       "note": "Or call us directly for immediate advice"
     }
   },

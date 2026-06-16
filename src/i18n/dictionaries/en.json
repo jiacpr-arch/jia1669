@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "JIA LUCK SA — Enterprise AED Safety Solutions",
-    "description": "Premium AED units with real-time GPS tracking, compliance cabinet, team training and long warranty. Available to own or rent annually. By JIA LUCK SA (jia1669)."
+    "title": "JIA LUCK SA — Complete AED-GPS Rent & Buy Solutions",
+    "description": "Complete AED solutions with GPS tracking. Choose to own (Safety Premium), rent-to-own (Safety Start), or full-service rental (Safety Care) — including cabinet, training and after-sales service. By JIA LUCK SA (jia1669)."
   },
   "brand": {
     "name": "JIA LUCK SA",
-    "tagline": "Protect every life in your organization with AED"
+    "tagline": "Protect lives, manage your assets"
   },
   "nav": {
     "products": "Products",
@@ -14,102 +14,128 @@
     "training": "Training",
     "faq": "FAQ",
     "contact": "Contact",
-    "cta": "Get a Quote"
+    "cta": "Free Consultation"
   },
   "hero": {
-    "badge": "Your complete AED partner",
-    "title": "Turn critical seconds into a chance to survive",
-    "subtitle": "Complete AED solutions for factories, hotels and enterprises — premium devices with real-time GPS tracking, a compliance cabinet, team training and a long warranty. Choose to own outright or rent annually.",
-    "ctaPrimary": "Get a Quote",
+    "badge": "Free consultation · No cost",
+    "title": "Complete AED-GPS, Rent or Buy",
+    "subtitle": "Choose the AED safety package that fits your business — buy outright, rent-to-own, or full-service rental, each with a built-in GPS system.",
+    "ctaPrimary": "View packages",
     "ctaSecondary": "Call for free advice",
     "stats": [
-      { "value": "24/7", "label": "GPS device monitoring" },
-      { "value": "3–4 min", "label": "Golden window to save a life" },
-      { "value": "All-in-one", "label": "Device + cabinet + training + care" }
+      { "value": "3", "label": "Packages for every budget" },
+      { "value": "24/7", "label": "GPS tracking for device + assets" },
+      { "value": "3–5 days", "label": "Delivery + training, ready to use" }
     ]
   },
   "valueProps": {
-    "title": "Why your organization needs an AED",
-    "subtitle": "Sudden cardiac arrest can strike anyone, anywhere, anytime. A ready-to-use AED is the line between life and death.",
+    "title": "Why AED paired with GPS",
+    "subtitle": "Not just a life-saving device, but a more complete safety and asset-management system.",
     "items": [
       {
-        "title": "Every second counts",
-        "desc": "Survival chances drop by roughly 7–10% for every minute without help. A ready AED multiplies the odds of survival."
+        "title": "Every second is a life",
+        "desc": "Sudden cardiac arrest can strike anywhere, anytime, and survival odds drop every minute. A ready AED plus training significantly increases the chance of survival."
       },
       {
-        "title": "Global standards are arriving in Thailand",
-        "desc": "AEDs are already installed in airports, transit stations, schools and malls — and are now being actively introduced into factories and hotels."
+        "title": "GPS for all-round safety management",
+        "desc": "Beyond tracking the device itself, GPS tracks company ambulances, emergency vehicles, off-site teams and company assets — so help arrives faster in a crisis."
       },
       {
-        "title": "A benefit that builds confidence",
-        "desc": "More organizations now include AEDs as part of employee welfare, reflecting genuine care and raising their safety profile."
+        "title": "Pick by budget and flexibility",
+        "desc": "Buy outright to own immediately, pay monthly to own, or rent full-service with no equipment upkeep — and upgrade or change packages later."
       }
     ]
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "AED devices and trainers selected for maximum readiness.",
-    "priceNote": "* Please contact our team for pricing",
+    "title": "What's in our system",
+    "subtitle": "AED devices with GPS plus training equipment, selected for maximum readiness.",
+    "priceNote": "* Every package includes the AED + GPS + storage cabinet + training. Contact us for details.",
     "items": [
       {
-        "name": "JIA AED GPS",
+        "name": "JIA AED + GPS",
         "category": "AED Device",
-        "desc": "An automated external defibrillator with built-in GPS that tracks device location and readiness in real time — ideal for organizations managing multiple installation sites.",
-        "tag": "Best seller"
+        "desc": "An automated external defibrillator with built-in GPS tracking location and readiness in real time — the core of every package.",
+        "tag": "System core"
       },
       {
-        "name": "Jia Zoll",
-        "category": "AED Device",
-        "desc": "A high-quality, easy-to-use AED with voice guidance for every step — suitable for public spaces and enterprises.",
+        "name": "Standard Storage Cabinet",
+        "category": "Equipment",
+        "desc": "A wall-mounted or free-standing AED cabinet that's easy to reach in an emergency — included in every package.",
         "tag": ""
       },
       {
-        "name": "AED Trainer Jia Plus",
+        "name": "AED Trainer",
         "category": "Trainer",
-        "desc": "An AED training simulator for CPR/AED courses, helping your team master the real workflow without using a live unit.",
+        "desc": "An AED training simulator for CPR/AED courses, helping your team master the real workflow.",
         "tag": ""
       },
       {
-        "name": "AED Trainer Jia",
-        "category": "Trainer",
-        "desc": "A standard, budget-friendly AED trainer — ideal for schools and training centers that need many practice units.",
+        "name": "Demo / Trial Service",
+        "category": "Service",
+        "desc": "Product demonstration and trial at our office, or scheduled at your site, so you can assess quality and fit before deciding.",
         "tag": ""
       }
     ]
   },
   "packages": {
-    "title": "Choose the right package for your organization",
-    "subtitle": "Whether you want to own the device or have us manage the whole system, we have an option to fit your budget and needs.",
+    "title": "3 standard AED packages with GPS tracking",
+    "subtitle": "For every Thai business need — buy outright, rent-to-own, or full-service rental.",
     "popularLabel": "Most popular",
     "ctaLabel": "Ask about this package",
+    "targetLabel": "Best for",
+    "includesLabel": "What you get",
     "plans": [
       {
         "name": "Safety Premium",
-        "type": "Ownership",
+        "type": "Buy outright — own immediately",
+        "price": "69,000 THB",
+        "priceOriginal": "98,988 THB",
+        "priceUnit": "one-time payment (ownership)",
         "highlight": true,
-        "desc": "Own a complete safety set with a long warranty and ongoing after-sales care.",
+        "desc": "Own all the equipment immediately, with full service included.",
         "features": [
-          "Premium AED device with extended warranty",
-          "Real-time GPS status tracking",
-          "Standard compliance cabinet",
-          "On-site installation service",
-          "Team usage training",
-          "After-sales service per package"
-        ]
+          "Own the AED + GPS equipment",
+          "Wall-mounted / free-standing cabinet",
+          "Usage training",
+          "Basic after-sales service",
+          "Includes initial inspection + manufacturer warranty",
+          "Financing available via partner institutions"
+        ],
+        "target": "Established organizations with capital budgets and annual procurement"
       },
       {
-        "name": "Smart AED",
-        "type": "Annual Rental",
+        "name": "Safety Start",
+        "type": "Rent-to-Own",
+        "price": "15,000 deposit + 2,500 THB/mo",
+        "priceOriginal": "",
+        "priceUnit": "18 months, then you own it",
         "highlight": false,
-        "desc": "Let us manage the whole system for a predictable, fixed annual fee that's easy to budget.",
+        "desc": "Pay monthly toward ownership. After 18 months the equipment becomes yours at no extra cost.",
         "features": [
-          "Fully maintained, ready-to-use AED",
-          "GPS location and status tracking",
-          "Maintenance and consumable replacement",
-          "Fixed annual fee, easy budgeting",
-          "Scheduled refresher training",
-          "No large upfront investment"
-        ]
+          "Use the full package immediately",
+          "AED + GPS + storage cabinet",
+          "Usage training",
+          "Includes initial inspection + manufacturer warranty",
+          "After 18 months you own it outright, no extra cost"
+        ],
+        "target": "SMEs / new offices that want ownership with limited cash flow"
+      },
+      {
+        "name": "Safety Care",
+        "type": "Full-service rental",
+        "price": "25,000 deposit (refundable) + 1,500 THB/mo",
+        "priceOriginal": "",
+        "priceUnit": "1-year contract",
+        "highlight": false,
+        "desc": "Full-service — no equipment upkeep on your side, returnable when you stop using it.",
+        "features": [
+          "Full service, no equipment upkeep",
+          "Includes maintenance + consumable replacement",
+          "Software updates, no extra cost during the contract",
+          "Backup device replacement for urgent cases",
+          "Deposit refunded after contract and equipment check"
+        ],
+        "target": "Short-term projects / businesses needing maximum flexibility"
       }
     ]
   },
@@ -117,49 +143,102 @@
     "title": "Every element of safety, covered",
     "subtitle": "Every package is designed to be operational from day one.",
     "items": [
-      { "title": "Real-time GPS tracking", "desc": "Know the location and readiness of every device at all times." },
-      { "title": "Compliance cabinet", "desc": "A standard AED cabinet that's easy to reach in an emergency." },
-      { "title": "Team training", "desc": "AED and CPR training so your staff are ready to respond." },
-      { "title": "Long warranty", "desc": "Peace of mind with warranty coverage and ongoing care." },
-      { "title": "On-site installation", "desc": "Our team installs and advises on optimal placement." },
-      { "title": "After-sales care", "desc": "Maintenance and support throughout the device's lifetime." }
+      { "title": "Real-time GPS tracking", "desc": "Track the device, emergency vehicles, teams and company assets." },
+      { "title": "Standard cabinet", "desc": "Wall-mounted/free-standing, easy to reach — included in every package." },
+      { "title": "Team training", "desc": "AED and CPR training so staff are ready — included in every package." },
+      { "title": "5–8 year warranty", "desc": "Every new AED comes with a manufacturer warranty." },
+      { "title": "Delivery in 3–5 days", "desc": "Delivery and basic training can be scheduled within 3–5 business days." },
+      { "title": "After-sales care", "desc": "Phone support · on-site service · backup device for urgent cases." }
     ]
   },
   "training": {
     "title": "CPR & AED Training Services",
-    "subtitle": "Great equipment needs capable people. We train your team to act with confidence when it matters most.",
+    "subtitle": "Great equipment needs capable people. We train your team to act with confidence — included in every package.",
     "points": [
-      "Basic cardiopulmonary resuscitation (CPR) training",
+      "Reduce panic and build confidence in emergencies",
       "Hands-on AED practice with training simulators",
-      "Content tailored to factories, hotels and enterprises",
-      "Periodic refresher sessions to maintain readiness"
+      "Teach basic CPR techniques alongside device use",
+      "Content tailored to factories, hotels and enterprises"
     ],
     "cta": "Ask about training"
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "items": [
+    "subtitle": "Questions about products, pricing, installation and contract terms.",
+    "categories": [
       {
-        "q": "What is an AED and how important is it?",
-        "a": "An AED (automated external defibrillator) helps people in sudden cardiac arrest. Having one ready in your organization significantly increases the chance of survival."
+        "title": "About the product & service",
+        "items": [
+          {
+            "q": "What's included in your packages?",
+            "a": "Every package includes a complete safety set: 1) an AED, 2) a GPS tracking system, and 3) a standard storage cabinet, plus usage training and after-sales service per package. With Safety Premium and Safety Start you own the equipment; Safety Care is a full-service rental."
+          },
+          {
+            "q": "Why pair GPS with the AED?",
+            "a": "GPS isn't only for tracking the device — it's a more complete safety-management system. It tracks company ambulances, emergency vehicles and off-site teams so help arrives faster in a crisis, and it can track company assets too."
+          },
+          {
+            "q": "Is training required to use an AED?",
+            "a": "We strongly recommend it. Even though modern AEDs are easy to use with voice prompts, training builds confidence, reduces panic, and teaches essential basic CPR alongside device use — significantly improving survival odds. That's why training is included in every package."
+          }
+        ]
       },
       {
-        "q": "Should I buy outright or rent?",
-        "a": "If you want ownership and long-term cost control, choose the Safety Premium (ownership) package. If you'd rather have us manage everything with a predictable annual budget, choose Smart AED (rental)."
+        "title": "Pricing & payment",
+        "items": [
+          {
+            "q": "How is Safety Start (rent-to-own) different from regular rental?",
+            "a": "With regular rental you keep paying and the equipment stays ours. Safety Start is installment payment toward ownership — after completing the 18-month contract the equipment becomes your organization's asset at no extra cost, spreading the investment while still ending in ownership."
+          },
+          {
+            "q": "Are there hidden fees or extra maintenance costs?",
+            "a": "The advertised price is the final price including basic service. Safety Premium & Start include initial inspection and manufacturer warranty, though batteries or electrode pads are standard consumables that may need replacing in later years. Safety Care includes everything — maintenance, consumables and software updates — with no extra cost during the contract."
+          },
+          {
+            "q": "Do you offer financing through banks?",
+            "a": "Yes. For Safety Premium (buy outright) we can coordinate with partner financial institutions for installment plans. Contact our sales team for details and suitable interest rates."
+          }
+        ]
       },
       {
-        "q": "How does the GPS system work?",
-        "a": "Our devices track location and readiness in real time, making it easy for multi-site organizations to ensure every unit is always ready to use."
+        "title": "Installation, use & service",
+        "items": [
+          {
+            "q": "How soon can we start using the service?",
+            "a": "Quickly. After agreement and payment, delivery and basic training can be scheduled within 3–5 business days. Complex cabinet or system installations may be assessed case by case."
+          },
+          {
+            "q": "How do I get service if the equipment has a problem?",
+            "a": "We offer after-sales service through several channels: phone support for basic issues, on-site service for problems requiring a technician, and backup device replacement under Safety Care for urgent cases. Warranty details are clearly stated in the contract."
+          },
+          {
+            "q": "Can I trial or test a device before deciding?",
+            "a": "Yes. We offer product demonstration and trials at our office, or scheduled at your site, so you can see the quality and fit before deciding."
+          }
+        ]
       },
       {
-        "q": "Do you provide usage training?",
-        "a": "Yes. Every package includes team usage training, and we also offer separate CPR/AED training for interested organizations."
+        "title": "Contract terms & more",
+        "items": [
+          {
+            "q": "What happens if I cancel mid-contract (Safety Start and Care)?",
+            "a": "Safety Start (rent-to-own): if cancelled mid-contract the deposit is treated as a penalty and is non-refundable, and the equipment must be returned in good condition. Safety Care (rental): you can cancel at the end of the annual contract, and the deposit is refunded after the equipment is returned complete and in good condition."
+          },
+          {
+            "q": "What warranties or guarantees are there?",
+            "a": "Every new AED comes with a manufacturer warranty (typically 5–8 years). Our service provides a satisfaction guarantee on installation and training, and some packages include coverage for damage from natural disasters or theft (see the contract for details)."
+          },
+          {
+            "q": "Can I change packages in the future?",
+            "a": "Absolutely. For example, upgrade from Safety Care to Safety Start when you want ownership, or add more AED and GPS units to your existing package. Contact our sales team for a new quote anytime."
+          }
+        ]
       }
     ]
   },
   "contact": {
     "title": "Ready to raise your organization's safety?",
-    "subtitle": "Contact the JIA LUCK SA team for advice and a quote tailored to your organization.",
+    "subtitle": "Get a free consultation from the JIA LUCK SA team, plus a quote for the package that fits your business.",
     "phoneLabel": "Call us",
     "phone": "090-979-1212",
     "facebookLabel": "Facebook",
@@ -171,13 +250,13 @@
       "name": "Full name",
       "company": "Organization / Company",
       "phone": "Phone number",
-      "message": "Message / Requirements",
+      "message": "Message / Package of interest",
       "submit": "Send message",
       "note": "Or call us directly for immediate advice"
     }
   },
   "footer": {
-    "tagline": "Complete AED solutions for Thai organizations",
+    "tagline": "Complete AED-GPS rent & buy solutions for Thai organizations",
     "rights": "All rights reserved",
     "madeNote": "New website replacing jia1669.com"
   },

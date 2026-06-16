@@ -11,7 +11,7 @@ export default function Products({ dict }: { dict: Dictionary }) {
           </h2>
           <p className="mt-4 text-lg text-slate-600">{dict.products.subtitle}</p>
         </div>
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {dict.products.items.map((p) => (
             <article
               key={p.name}

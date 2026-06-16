@@ -78,6 +78,13 @@
         "category": "Training",
         "desc": "On-site AED & CPR training for your staff by expert instructors, with certificate; content tailored to your workplace and needs.",
         "tag": ""
+      },
+      {
+        "name": "Demo / Trial Service",
+        "image": "/images/demo.jpg",
+        "category": "Service",
+        "desc": "Product demonstration and trial at our office, or scheduled at your site, so you can assess quality and fit before deciding.",
+        "tag": ""
       }
     ]
   },

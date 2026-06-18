@@ -56,35 +56,64 @@
         "image": "/images/aed-gps.jpg",
         "category": "เครื่อง AED",
         "desc": "เครื่องกระตุกหัวใจอัตโนมัติพร้อมระบบ GPS ติดตามตำแหน่งและสถานะเครื่องแบบเรียลไทม์ หัวใจหลักของทุกแพ็กเกจ",
-        "tag": "หลักของระบบ"
+        "tag": "หลักของระบบ",
+        "price": ""
       },
       {
         "name": "ตู้จัดเก็บมาตรฐาน",
         "image": "/images/cabinet.jpg",
         "category": "อุปกรณ์",
         "desc": "ตู้ติดผนังหรือตู้ตั้งสำหรับเก็บ AED เข้าถึงง่ายในยามฉุกเฉิน รวมอยู่ในทุกแพ็กเกจ",
-        "tag": ""
+        "tag": "",
+        "price": ""
       },
       {
         "name": "AED Trainer",
         "image": "/images/trainer.jpg",
         "category": "เครื่องฝึก",
         "desc": "เครื่องฝึกจำลองการใช้งาน AED สำหรับการอบรม CPR/AED ให้ทีมงานคุ้นเคยกับขั้นตอนจริง",
-        "tag": ""
+        "tag": "",
+        "price": ""
       },
       {
         "name": "อบรมพนักงาน",
         "image": "/images/training.jpg",
         "category": "อบรม",
         "desc": "บริการอบรมการใช้ AED และ CPR ให้พนักงานในองค์กร โดยครูผู้เชี่ยวชาญ พร้อมใบประกาศ ปรับเนื้อหาตามสถานที่และความต้องการ",
-        "tag": ""
+        "tag": "",
+        "price": ""
       },
       {
         "name": "บริการสาธิต/ทดลองใช้",
         "image": "/images/demo.jpg",
         "category": "บริการ",
         "desc": "บริการสาธิตและทดลองใช้สินค้า (Product Demonstration) ที่สำนักงาน หรือนัดหมายไปยังสถานที่ของท่านก่อนตัดสินใจ",
-        "tag": ""
+        "tag": "",
+        "price": ""
+      },
+      {
+        "name": "แผ่นนำไฟฟ้า Yuwell AED (Y8)",
+        "image": "",
+        "category": "วัสดุสิ้นเปลือง",
+        "desc": "แผ่นนำไฟฟ้า (Electrodes) สำหรับ Defibrillation, Pacing และ Cardioversion ใช้กับเครื่อง Yuwell AED รุ่น Y8 — แบบมาตรฐาน (ไม่มี feedback)",
+        "tag": "",
+        "price": "4,000 บาท"
+      },
+      {
+        "name": "แผ่นนำไฟฟ้า Yuwell AED (Y8) มี Feedback",
+        "image": "",
+        "category": "วัสดุสิ้นเปลือง",
+        "desc": "แผ่นนำไฟฟ้าพร้อมระบบ CPR Feedback ช่วยแนะนำการกดหน้าอกแบบเรียลไทม์ ใช้กับเครื่อง Yuwell AED รุ่น Y8",
+        "tag": "",
+        "price": "5,000 บาท"
+      },
+      {
+        "name": "แบตเตอรี่ Yuwell AED",
+        "image": "",
+        "category": "วัสดุสิ้นเปลือง",
+        "desc": "แบตเตอรี่ Lithium Manganese Dioxide (LiMnO₂) รุ่น NRL01C 4CR17345 · DC 12V 4.2Ah สำหรับเครื่อง Yuwell / Primedic Heartsave Y และ YA",
+        "tag": "",
+        "price": "8,000 บาท"
       }
     ]
   },

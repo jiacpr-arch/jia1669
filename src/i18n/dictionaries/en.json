@@ -46,45 +46,154 @@
       }
     ]
   },
+  "trust": {
+    "title": "Why organisations choose JIA LUCK SA",
+    "subtitle": "A medical and emergency equipment distributor that runs its own life-saving training centre under the JIA TRAINER CENTER brand.",
+    "items": [
+      {
+        "value": "JIA TRAINER CENTER",
+        "label": "We run our own CPR & AED training centre — we don't just sell the box."
+      },
+      {
+        "value": "Ramathibodi-trained",
+        "label": "Our instructors trained at the Faculty of Medicine, Ramathibodi Hospital."
+      },
+      {
+        "value": "CE / FDA standards",
+        "label": "AEDs imported from manufacturers certified to international standards."
+      },
+      {
+        "value": "Registered company",
+        "label": "JIA LUCK SA Co., Ltd. — registration 0745554004303, Samut Sakhon."
+      }
+    ],
+    "award": {
+      "badge": "Our programme",
+      "title": "Save a life with our AED, receive 10,000 THB",
+      "desc": "If an AED bought from JIA LUCK SA Co., Ltd. is used to successfully save a life, we award 10,000 THB to the person who stepped in. Our goal is a device that actually gets used in the moment that counts — not one that hangs on the wall forever.",
+      "note": "Terms as set by the company — ask our team for details."
+    }
+  },
   "products": {
     "title": "What's in our system",
     "subtitle": "AED devices with GPS plus training equipment, selected for maximum readiness.",
     "priceNote": "* Every package includes the AED + GPS + storage cabinet + training. Contact us for details.",
+    "specsLabel": "Key specs",
     "items": [
       {
         "name": "JIA AED + GPS",
         "image": "/images/aed-gps.jpg",
         "category": "AED Device",
         "desc": "An automated external defibrillator with built-in GPS tracking location and readiness in real time — the core of every package.",
-        "tag": "System core"
+        "tag": "System core",
+        "specs": [
+          "Real-time location tracking, 24/7 status monitoring",
+          "200–360 J shock energy",
+          "Thai voice prompts through every step",
+          "Works for both children and adults",
+          "CPR feedback to keep compressions on tempo"
+        ]
       },
       {
-        "name": "Standard Storage Cabinet",
+        "name": "AED Life",
+        "image": "/images/hero-aed.jpg",
+        "category": "AED Device",
+        "desc": "A compact, lightweight AED imported from South Korea — cost-effective for offices and shops, usable on both children and adults.",
+        "tag": "Best seller",
+        "specs": [
+          "Made in South Korea",
+          "Under 2.2 kg — easy to carry",
+          "Lithium-manganese battery",
+          "ECG analysis with automatic shock advisory",
+          "Thai voice prompts, for children and adults"
+        ]
+      },
+      {
+        "name": "JIA Mindray AED",
+        "image": "",
+        "category": "AED Device",
+        "desc": "A Mindray BeneHeart-series AED for organisations that want a global brand, also available bundled with a Standbox cabinet.",
+        "tag": "",
+        "specs": [
+          "Mindray BeneHeart series",
+          "FDA-cleared",
+          "High-energy biphasic technology",
+          "Available bundled with a Standbox cabinet"
+        ]
+      },
+      {
+        "name": "JIA Zoll (ZOLL AED Plus)",
+        "image": "",
+        "category": "AED Device",
+        "desc": "The ZOLL AED Plus — a world-standard AED whose strength is coaching chest compressions alongside defibrillation.",
+        "tag": "",
+        "specs": [
+          "ZOLL AED Plus",
+          "Coaches compression depth and rate",
+          "One-piece electrode pad, simple to place",
+          "World-standard build, strong long-term value"
+        ]
+      },
+      {
+        "name": "AED Cabinet / Standbox",
         "image": "/images/cabinet.jpg",
         "category": "Equipment",
         "desc": "A wall-mounted or free-standing AED cabinet that's easy to reach in an emergency — included in every package.",
-        "tag": ""
+        "tag": "",
+        "specs": [
+          "Wall-mounted and free-standing versions",
+          "AED signage visible from a distance",
+          "Can be bundled with Mindray units"
+        ]
       },
       {
-        "name": "AED Trainer",
+        "name": "JIA AED Trainer",
         "image": "/images/trainer.jpg",
         "category": "Trainer",
-        "desc": "An AED training simulator for CPR/AED courses, helping your team master the real workflow.",
-        "tag": ""
+        "desc": "An AED training simulator for CPR/AED courses — the real workflow with no live current, so practice stays safe.",
+        "tag": "",
+        "specs": [
+          "Mirrors the real device, safe to practise on",
+          "Switchable language, simple to operate",
+          "Multiple built-in training scenarios",
+          "Pairs with CPR manikins in our courses"
+        ]
       },
       {
-        "name": "Employee Training",
+        "name": "Electrode Pads & Batteries",
+        "image": "",
+        "category": "Consumables",
+        "desc": "Replacement AED pads and spare batteries for every model we sell, for when the originals reach end of life.",
+        "tag": "",
+        "specs": [
+          "Adult and paediatric pads available",
+          "Expiry reminders ahead of time",
+          "Covered by the Safety Care service fee"
+        ]
+      },
+      {
+        "name": "CPR & AED Training",
         "image": "/images/training.jpg",
         "category": "Training",
         "desc": "On-site AED & CPR training for your staff by expert instructors, with certificate; content tailored to your workplace and needs.",
-        "tag": ""
+        "tag": "",
+        "specs": [
+          "Instructors travel to your site (in-house)",
+          "Hands-on practice with manikins and trainers",
+          "Certificate issued on completion"
+        ]
       },
       {
         "name": "Demo / Trial Service",
         "image": "/images/demo.jpg",
         "category": "Service",
         "desc": "Product demonstration and trial at our office, or scheduled at your site, so you can assess quality and fit before deciding.",
-        "tag": ""
+        "tag": "",
+        "specs": [
+          "Demo scheduled at your premises",
+          "Compare models and packages before deciding",
+          "No charge for the consultation"
+        ]
       }
     ]
   },
@@ -172,9 +281,33 @@
       "Reduce panic and build confidence in emergencies",
       "Hands-on AED practice with training simulators",
       "Teach basic CPR techniques alongside device use",
-      "Content tailored to factories, hotels and enterprises"
+      "Content tailored to factories, hotels and enterprises",
+      "Instructors trained at the Faculty of Medicine, Ramathibodi Hospital"
     ],
-    "cta": "Ask about training"
+    "cta": "Ask about training",
+    "coursesTitle": "Courses we run",
+    "durationLabel": "Duration",
+    "courses": [
+      {
+        "name": "CPR & AED for individuals",
+        "duration": "Half day",
+        "price": "From 500 THB / person",
+        "desc": "First aid and basic life support with hands-on practice on manikins and AED trainers, certificate included."
+      },
+      {
+        "name": "In-house CPR & AED for organisations",
+        "duration": "3 hours – 1 day",
+        "price": "Request a quote",
+        "desc": "Instructors come to your site, with content shaped around your work and its risks, all equipment provided."
+      },
+      {
+        "name": "Device training for buyers",
+        "duration": "By appointment",
+        "price": "Included in every package",
+        "desc": "Training on the actual unit you receive — powering on, pad placement, monthly checks and upkeep."
+      }
+    ],
+    "coursesNote": "See the full course list and schedule at jiacpr.com, or ask our team directly."
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -194,6 +327,10 @@
           {
             "q": "Is training required to use an AED?",
             "a": "We strongly recommend it. Even though modern AEDs are easy to use with voice prompts, training builds confidence, reduces panic, and teaches essential basic CPR alongside device use — significantly improving survival odds. That's why training is included in every package."
+          },
+          {
+            "q": "Which AED models can we choose from?",
+            "a": "Pick by budget and setting — AED Life, imported from South Korea, under 2.2 kg, lithium-manganese battery, Thai voice prompts, for children and adults · JIA Mindray AED from the BeneHeart series, FDA-cleared, available bundled with a Standbox cabinet · JIA Zoll (ZOLL AED Plus), strongest at coaching compression depth and rate. Every model can be paired with GPS and a cabinet. Tell our team about your site and headcount and we'll recommend the best fit."
           }
         ]
       },
@@ -245,6 +382,10 @@
           {
             "q": "Can I change packages in the future?",
             "a": "Absolutely. For example, upgrade from Safety Care to Safety Start when you want ownership, or add more AED and GPS units to your existing package. Contact our sales team for a new quote anytime."
+          },
+          {
+            "q": "What is the 10,000 THB award programme?",
+            "a": "It's a JIA LUCK SA Co., Ltd. programme that awards 10,000 THB to anyone who successfully saves a life using an AED bought from us. We want the device used when it counts, not just mounted to satisfy a rule. Terms and supporting documents are as set by the company — ask our team for details."
           }
         ]
       }
@@ -257,7 +398,7 @@
     "phone": "090-979-1212",
     "facebookLabel": "Facebook",
     "lineLabel": "LINE",
-    "lineValue": "@jia1669",
+    "lineValue": "JIA1669 (LINE Official)",
     "addressLabel": "Address",
     "address": "Jia Raksa Co., Ltd. — 36/5 Moo 7, Om Noi, Krathum Baen, Samut Sakhon 74130",
     "form": {
@@ -273,6 +414,8 @@
   },
   "footer": {
     "tagline": "Complete AED-GPS rent & buy solutions for Thai organizations",
+    "trainingLinkLabel": "JIACPR training centre",
+    "shopLinkLabel": "Lazada shop",
     "rights": "All rights reserved",
     "madeNote": "New website replacing jia1669.com"
   },

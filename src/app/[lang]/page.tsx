@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import PromoBar from "@/components/PromoBar";
 import ValueProps from "@/components/ValueProps";
 import Products from "@/components/Products";
+import Trust from "@/components/Trust";
 import Packages from "@/components/Packages";
 import Features from "@/components/Features";
 import Training from "@/components/Training";
@@ -30,6 +31,7 @@ export default async function Home({
         <Hero dict={dict} />
         <PromoBar dict={dict} />
         <Packages dict={dict} />
+        <Trust dict={dict} />
         <Products dict={dict} />
         <ValueProps dict={dict} />
         <Features dict={dict} />

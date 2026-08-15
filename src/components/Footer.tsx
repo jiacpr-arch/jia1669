@@ -33,6 +33,30 @@ export default function Footer({ dict }: { dict: Dictionary }) {
             >
               {dict.contact.facebookLabel}
             </a>
+            <a
+              href={site.line}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-brand-600"
+            >
+              {dict.contact.lineLabel}
+            </a>
+            <a
+              href={site.trainingSite}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-brand-600"
+            >
+              {dict.footer.trainingLinkLabel}
+            </a>
+            <a
+              href={site.lazada}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-brand-600"
+            >
+              {dict.footer.shopLinkLabel}
+            </a>
           </div>
         </div>
         <div className="mt-8 border-t border-slate-100 pt-6 text-center text-sm text-slate-400">

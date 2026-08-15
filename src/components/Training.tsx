@@ -38,6 +38,28 @@ export default function Training({ dict }: { dict: Dictionary }) {
         </div>
       </div>
 
+      <div className="mt-16">
+        <h3 className="text-2xl font-extrabold tracking-tight text-ink-900">
+          {dict.training.coursesTitle}
+        </h3>
+        <div className="mt-6 grid gap-5 lg:grid-cols-3">
+          {dict.training.courses.map((c) => (
+            <article
+              key={c.name}
+              className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+            >
+              <h4 className="text-lg font-bold text-ink-900">{c.name}</h4>
+              <p className="mt-1 text-sm text-slate-500">
+                {dict.training.durationLabel}: {c.duration}
+              </p>
+              <p className="mt-3 flex-1 text-sm text-slate-600">{c.desc}</p>
+              <p className="mt-4 text-base font-extrabold text-brand-600">{c.price}</p>
+            </article>
+          ))}
+        </div>
+        <p className="mt-6 text-sm text-slate-500">{dict.training.coursesNote}</p>
+      </div>
+
       <div className="mt-10 overflow-hidden rounded-3xl border border-slate-200 shadow-lg">
         <Image
           src="/images/training.jpg"

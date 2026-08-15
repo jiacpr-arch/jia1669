@@ -27,7 +27,14 @@ export default function Products({ dict }: { dict: Dictionary }) {
                     className="object-contain p-2"
                   />
                 ) : (
-                  <span className="grid h-full w-full place-items-center text-5xl">❤️</span>
+                  <span className="grid h-full w-full place-content-center justify-items-center gap-2">
+                    <span aria-hidden className="text-5xl">
+                      ❤️
+                    </span>
+                    <span className="text-xs font-semibold uppercase tracking-wide text-brand-600/70">
+                      {p.category}
+                    </span>
+                  </span>
                 )}
                 {p.tag && (
                   <span className="absolute left-3 top-3 rounded-full bg-brand-600 px-2.5 py-1 text-xs font-semibold text-white">
@@ -40,10 +47,23 @@ export default function Products({ dict }: { dict: Dictionary }) {
                   {p.category}
                 </span>
                 <h3 className="mt-1 text-lg font-bold text-ink-900">{p.name}</h3>
-                <p className="mt-2 flex-1 text-sm text-slate-600">{p.desc}</p>
+                <p className="mt-2 text-sm text-slate-600">{p.desc}</p>
+                {p.specs.length > 0 && (
+                  <ul
+                    aria-label={`${dict.products.specsLabel} — ${p.name}`}
+                    className="mt-4 flex-1 space-y-1.5 border-t border-slate-100 pt-4"
+                  >
+                    {p.specs.map((s) => (
+                      <li key={s} className="flex items-start gap-2 text-sm text-slate-700">
+                        <span aria-hidden className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-brand-500" />
+                        <span>{s}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 <a
                   href="#contact"
-                  className="mt-4 text-sm font-semibold text-brand-600 hover:text-brand-700"
+                  className="mt-4 pt-1 text-sm font-semibold text-brand-600 hover:text-brand-700"
                 >
                   {dict.packages.ctaLabel} →
                 </a>

@@ -5,6 +5,7 @@ export const site = {
   facebook: "https://www.facebook.com/jialucksa",
   line: "https://line.me/ti/p/@jia1669",
   email: "jiacpr@gmail.com",
-  // Meta Pixel — "jiacpr.com website pixels"
-  metaPixelId: "1277103750989853",
+  // Meta Pixel — network_primary_pixel ("พิกเซลของ Garnam Jia") ตาม registry/businesses.yaml ใน jia-ads-hub
+  // ของเดิม "jiacpr.com website pixels" (1277103750989853) ค้างมา >30 วัน ไม่มี event เลย
+  metaPixelId: "1103064446544207",
 };

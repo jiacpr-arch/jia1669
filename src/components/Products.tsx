@@ -41,6 +41,9 @@ export default function Products({ dict }: { dict: Dictionary }) {
                 </span>
                 <h3 className="mt-1 text-lg font-bold text-ink-900">{p.name}</h3>
                 <p className="mt-2 flex-1 text-sm text-slate-600">{p.desc}</p>
+                {p.price && (
+                  <p className="mt-3 text-lg font-extrabold text-brand-600">{p.price}</p>
+                )}
                 <a
                   href="#contact"
                   className="mt-4 text-sm font-semibold text-brand-600 hover:text-brand-700"

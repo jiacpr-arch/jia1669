@@ -23,9 +23,18 @@
     "ctaPrimary": "View prices",
     "ctaSecondary": "Call for free advice",
     "stats": [
-      { "value": "Rent 1,500.-/mo", "label": "From per month (Safety Care)" },
-      { "value": "Buy 69,000.-", "label": "Was 98,988.- (Safety Premium)" },
-      { "value": "18-mo plan", "label": "Pay to own (Safety Start)" }
+      {
+        "value": "Rent 1,500.-/mo",
+        "label": "From per month (Safety Care)"
+      },
+      {
+        "value": "Buy 69,000.-",
+        "label": "Was 98,988.- (Safety Premium)"
+      },
+      {
+        "value": "18-mo plan",
+        "label": "Pay to own (Safety Start)"
+      }
     ]
   },
   "valueProps": {
@@ -56,35 +65,64 @@
         "image": "/images/aed-gps.jpg",
         "category": "AED Device",
         "desc": "An automated external defibrillator with built-in GPS tracking location and readiness in real time — the core of every package.",
-        "tag": "System core"
+        "tag": "System core",
+        "price": ""
       },
       {
         "name": "Standard Storage Cabinet",
         "image": "/images/cabinet.jpg",
         "category": "Equipment",
         "desc": "A wall-mounted or free-standing AED cabinet that's easy to reach in an emergency — included in every package.",
-        "tag": ""
+        "tag": "",
+        "price": ""
       },
       {
         "name": "AED Trainer",
         "image": "/images/trainer.jpg",
         "category": "Trainer",
         "desc": "An AED training simulator for CPR/AED courses, helping your team master the real workflow.",
-        "tag": ""
+        "tag": "",
+        "price": ""
       },
       {
         "name": "Employee Training",
         "image": "/images/training.jpg",
         "category": "Training",
         "desc": "On-site AED & CPR training for your staff by expert instructors, with certificate; content tailored to your workplace and needs.",
-        "tag": ""
+        "tag": "",
+        "price": ""
       },
       {
         "name": "Demo / Trial Service",
         "image": "/images/demo.jpg",
         "category": "Service",
         "desc": "Product demonstration and trial at our office, or scheduled at your site, so you can assess quality and fit before deciding.",
-        "tag": ""
+        "tag": "",
+        "price": ""
+      },
+      {
+        "name": "Yuwell AED Electrode Pads (Y8)",
+        "image": "/images/pad-yuwell.jpg",
+        "category": "Consumable",
+        "desc": "Electrodes for defibrillation, pacing and cardioversion, compatible with the Yuwell AED Y8 — standard version (no feedback).",
+        "tag": "",
+        "price": "THB 4,000"
+      },
+      {
+        "name": "Yuwell AED Electrode Pads (Y8) with Feedback",
+        "image": "/images/pad-yuwell-feedback.jpg",
+        "category": "Consumable",
+        "desc": "Electrode pads with real-time CPR feedback to guide chest compressions, compatible with the Yuwell AED Y8.",
+        "tag": "",
+        "price": "THB 5,000"
+      },
+      {
+        "name": "Yuwell AED Battery",
+        "image": "/images/battery-yuwell.jpg",
+        "category": "Consumable",
+        "desc": "Lithium Manganese Dioxide (LiMnO₂) battery, model NRL01C 4CR17345 · DC 12V 4.2Ah, for Yuwell / Primedic Heartsave Y and YA.",
+        "tag": "",
+        "price": "THB 8,000"
       }
     ]
   },
@@ -157,12 +195,30 @@
     "title": "Every element of safety, covered",
     "subtitle": "Every package is designed to be operational from day one.",
     "items": [
-      { "title": "Real-time GPS tracking", "desc": "Track the device, emergency vehicles, teams and company assets." },
-      { "title": "Standard cabinet", "desc": "Wall-mounted/free-standing, easy to reach — included in every package." },
-      { "title": "Team training", "desc": "AED and CPR training so staff are ready — included in every package." },
-      { "title": "5–8 year warranty", "desc": "Every new AED comes with a manufacturer warranty." },
-      { "title": "Delivery in 3–5 days", "desc": "Delivery and basic training can be scheduled within 3–5 business days." },
-      { "title": "After-sales care", "desc": "Phone support · on-site service · backup device for urgent cases." }
+      {
+        "title": "Real-time GPS tracking",
+        "desc": "Track the device, emergency vehicles, teams and company assets."
+      },
+      {
+        "title": "Standard cabinet",
+        "desc": "Wall-mounted/free-standing, easy to reach — included in every package."
+      },
+      {
+        "title": "Team training",
+        "desc": "AED and CPR training so staff are ready — included in every package."
+      },
+      {
+        "title": "5–8 year warranty",
+        "desc": "Every new AED comes with a manufacturer warranty."
+      },
+      {
+        "title": "Delivery in 3–5 days",
+        "desc": "Delivery and basic training can be scheduled within 3–5 business days."
+      },
+      {
+        "title": "After-sales care",
+        "desc": "Phone support · on-site service · backup device for urgent cases."
+      }
     ]
   },
   "training": {

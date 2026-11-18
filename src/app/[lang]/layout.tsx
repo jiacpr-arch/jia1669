@@ -38,6 +38,9 @@ export async function generateMetadata({
   };
 }
 
+// Small settings button bottom-left; LINE / phone buttons stay bottom-right.
+const JIA_CONSENT_CONFIG = `window.JIA_CONSENT={color:'#dc2626',onColor:'#ffffff',simple:true,compact:true,fab:true,bannerBottom:150,policyUrl:'https://jia1669.com',compactText:'ใช้คุกกี้เพื่อวัดผลโฆษณา'};`;
+
 export default async function LangLayout({
   children,
   params,
@@ -50,6 +53,12 @@ export default async function LangLayout({
 
   return (
     <html lang={lang as Locale} className={`${notoSansThai.variable} ${inter.variable}`}>
+      <head>
+        {/* Shared JIA cookie consent (PDPA): one compact bar on every JIA site, loaded before any tag. */}
+        <script dangerouslySetInnerHTML={{ __html: JIA_CONSENT_CONFIG }} />
+        {/* eslint-disable-next-line @next/next/no-sync-scripts -- consent defaults must land before tags */}
+        <script src="/jia-consent.js" />
+      </head>
       <body>
         <MetaPixel />
         {children}
